@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    margin: 2rem;
+    padding:1rem;
+    
+}
+h1{color: rgb(0, 0, 0);}
+textarea{
+    margin: 3rem;
+}
+label{
+    font-size: large;
+}
+*{
+    background-color: rgb(245, 247, 220);
+}
+
+textarea{
+    color: #000;
+    font-size: 1.5rem;
+}
