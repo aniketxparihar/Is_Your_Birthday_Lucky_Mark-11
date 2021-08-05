@@ -18,10 +18,15 @@ label{
     font-size: large;
 }
 *{
-    background-color: rgb(245, 247, 220);
+    background-color: rgb(255, 255, 255);
 }
-
+#calculate{
+    height:30px;background-color: #fff;
+}
 textarea{
     color: #000;
     font-size: 1.5rem;
+}
+.notice{
+    color:red;
 }
