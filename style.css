@@ -28,6 +28,7 @@ input{
     width:10rem;
     border:3px solid rgb(51, 255, 0);
     padding:10px;
+    background-color: #fff;
 }
 
 h1{
