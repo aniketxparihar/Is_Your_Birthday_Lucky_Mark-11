@@ -2,7 +2,7 @@ const dob = document.querySelector("#date-of-birth");
 const luckyNumber = document.querySelector("#lucky-number");
 const checkBtn = document.querySelector("#calculate");
 const show = document.querySelector("#output-container");
-
+const hide = document.querySelector("#cancel");
 const calculateSum=(date)=>{
     let sum=0;
     date = date.replaceAll("-","");
@@ -17,7 +17,7 @@ const checkIsNumberLucky = (sumOfDate,numberToCheck) => {
     if(sumOfDate%numberToCheck===0) {
         return showMessage(`OG ,${numberToCheck} is a lucky number!!  `)
     }
-    showMessage(`Beh ,${numberToCheck} is not that lucky`);
+    showMessage(`Bleh! ,${numberToCheck} is not that lucky`);
 }
 
 const showMessage = (message) => {
@@ -33,4 +33,7 @@ checkBtn.addEventListener("click",()=>{
     }else {
         showMessage("Please enter both the fields");
     }
+})
+hide.addEventListener("click", () => {
+    document.getElementById("notice").style.display = "none";
 })
