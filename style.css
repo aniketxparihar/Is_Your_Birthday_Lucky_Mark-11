@@ -6,7 +6,8 @@ body{
     height:40rem;
     background-repeat: repeat;
     background-position: bottom ;
-    
+    background-image: url(https://static.wixstatic.com/media/546dbf_03318f185ebd4d3a885b5e8e2f109c1a~mv2.gif);
+    transform:scale(0.9);
 }
 .container{
     display: flex;
@@ -18,7 +19,7 @@ body{
      background-image: url(https://cliply.co/wp-content/uploads/2020/07/422007320_CONFETTI_BALLOONS_400px.gif);
     background-repeat: no-repeat;
     background-position: center ;
-    
+    border:1px solid green;
     
     
 }
@@ -26,21 +27,24 @@ input{
     margin: 1rem;
     height:3rem;
     width:10rem;
-    border:3px solid rgb(0, 0, 0);
+    border:1px solid rgb(0, 0, 0);
     padding:10px;
     background-color: #fff;
+    border-radius:5px;
 }
 
 h1{
-color: rgb(0, 0, 0);
-border:2px solid rgb(0, 0, 0);
+color: rgb(66, 211, 36);
+border:1px solid rgb(38, 201, 23);
 padding:10px;
+border-radius:5px;
 }
 
 textarea{
     margin: 3rem;
     color: rgb(0, 0, 0);
-    padding:10px;   
+    padding:10px;  
+    background-color: rgb(253, 242, 242); 
 }
 label{
     font-size: large;
@@ -51,16 +55,26 @@ label{
     background-color: rgb(56, 204, 19);
     border: none;
     padding:10px;
+    border-radius:5px;
 }
 textarea{
     color: #000;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
     background-color: white;
-    height:4rem;
+    height:2rem;
+    width:14rem;
+    border: 2px solid green;
+    border-radius:5px;
     
 }
 #notice{
     color:red;
+    font-size: 1rem;
+    border:2px solid red;
+    padding:1rem;
+    background-color: #fff;
+    background-color: rgb(255, 232, 232);
     
 }
 #cancel{
