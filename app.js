@@ -15,9 +15,9 @@ const calculateSum=(date)=>{
 const checkIsNumberLucky = (sumOfDate,numberToCheck) => {
     console.log(sumOfDate,numberToCheck)
     if(sumOfDate%numberToCheck===0) {
-        return showMessage(`OG ,${numberToCheck} is a lucky number!!  `)
+        return showMessage(`OG ,Your B'day is lucky!!  `)
     }
-    showMessage(`Bleh! ,${numberToCheck} is not that lucky`);
+    showMessage(`Bleh! ,your B'day is not that lucky`);
 }
 
 const showMessage = (message) => {
